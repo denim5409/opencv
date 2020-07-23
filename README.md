@@ -90,7 +90,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-실행결과
+실행결과<br>
 <img src="/images/cv_img_vconcat.jpg">
 <img src="/images/cv_img_hconcat.jpg"><br><br>
 
@@ -117,7 +117,7 @@ plt.imshow(img_color)
 plt.axis('off')
 ```
 
-실행결과
+실행결과<br>
 <img src="/images/cv_img_in_plot.jpg"><br><br>
 
 - 이 외에도 image의 회전, 축소, 확대 등이 있습니다. 자세한 내용은 소스코드 파일을 참조해주세요.  
