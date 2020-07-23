@@ -62,9 +62,9 @@ cv2.imshow("gray",img_gray)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-<br>
+
 실행결과
-<img src="/images/cv_img_load.jpg"><br><br>
+<img src="/images/cv_img_load.jpg"><br>
 
 ### (2) Image 붙이기
 - image 두개를 상하,좌우로 붙이기 입니다.
@@ -89,9 +89,9 @@ cv2.imshow('LeftRight', result2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-<br>
+
 실행결과
-<img src="/images/cv_img_vconcat.jpg"><br>
+<img src="/images/cv_img_vconcat.jpg">
 <img src="/images/cv_img_hconcat.jpg"><br><br>
 
 - 이 외에도 image의 회전, 축소, 확대 등이 있습니다. 자세한 내용은 소스코드 파일을 참조해주세요.  
@@ -116,7 +116,7 @@ img_color = cv2.cvtColor(img_color, cv2.COLOR_BGR2RGB)
 plt.imshow(img_color)
 plt.axis('off')
 ```
-<br>
+
 실행결과
 <img src="/images/cv_img_in_plot.jpg"><br><br>
 
