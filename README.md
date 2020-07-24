@@ -209,30 +209,6 @@ cv2.destroyAllWindows()
 <img src="/images/cv_img_edge.jpg"><br><br>
 
 ### (7) image의 특정 색상만 검출하기
-- image에서 원하는 색상만 검출하는 코드입니다.
-```python
-import cv2
-import numpy as np
- 
-src = cv2.imread("images/apples.jpg", cv2.IMREAD_COLOR)
-src = cv2.pyrDown(src)
-hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
-
-h, s, v = cv2.split(hsv)
-
-h = cv2.inRange(h, 8, 20)
-orange = cv2.bitwise_and(hsv, hsv, mask = h)
-orange = cv2.cvtColor(orange, cv2.COLOR_HSV2BGR)
-
-cv2.imshow("orange", orange)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-```
-
-실행결과<br>
-<img src="/images/cv_img_color_filtering.jpg"><br><br>
-
-### (7) image의 특정 색상만 검출하기
 - image에서 원하는 색상만 검출하는 코드입니다. 
   + 색상을 HSV형태로 변환하여 원하는 색상 범위를 지정해주어야 합니다.
   + HSV 색상체계는 다음 사이트를 참조하세요. [색상코드](https://www.google.com/search?q=rgb+to+hex&oq=rgb&aqs=chrome.2.69i57j0l7.4543j0j8&sourceid=chrome&ie=UTF-8)
