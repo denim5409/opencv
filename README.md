@@ -95,7 +95,7 @@ cv2.destroyAllWindows()
 <img src="/images/cv_img_hconcat.jpg"><br><br>
 
 - 이 외에도 image의 회전, 축소, 확대 등이 있습니다. 자세한 내용은 소스코드 파일을 참조해주세요.  
-(opencv.ipynb)<br><br>
+[(opencv.ipynb)](https://github.com/denim5409/opencv/opencv.ipynb)<br><br>
 
 ### (3) image를 화면에 바로 띄우기
 - 기존에는 image가 별도의 창에 떴다면 이번에는 그래프창에 image를 바로 띄우는 코드입니다.
@@ -268,7 +268,8 @@ cv2.destroyAllWindows()
 - opencv가 image만 불러오는게 아니라 도형/선도 그릴 수 있습니다. 텍스트 입력도 가능합니다.
 - image와 조합도 가능합니다.  
   추후 이를 활용하여 회로도의 양품/불량판정, 도로의 차선 인식 등에 대한 설명도 예정입니다.
-- 예제는 사각형 그리는 코드입니다. 나머지 도형은 전체 코드파일을 참조하세요.(opencv.ipynb)
+- 예제는 사각형 그리는 코드입니다. 나머지 도형은 전체 코드파일을 참조하세요.
+[(opencv.ipynb)](https://github.com/denim5409/opencv/opencv.ipynb)
 
 ```python
 #사각형
